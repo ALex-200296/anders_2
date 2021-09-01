@@ -1,0 +1,13 @@
+@import "../../App.scss";
+
+.header {
+  margin-top: 10px;
+
+  width: 100%;
+  display: flex;
+
+  border: none;
+  border: 1px solid $grayE6;
+
+  border-radius: 15px;
+}
