@@ -7,6 +7,7 @@ import { getFilmDataSelector } from "../../store/film/selectors";
 import imagePoster from "../../assets/notimages.png";
 import styles from "./filmInfoSection.module.scss";
 import { RoutesHome } from "../../routes/routesConfig";
+
 interface IFilmItemUseParams {
   id: string;
 }
@@ -15,12 +16,15 @@ const FilmInfoSection: React.FC = () => {
   const { id } = useParams<IFilmItemUseParams>();
   const { item, loading } = useSelector(getFilmDataSelector);
   const dispatch = useDispatch();
+
   useEffect(() => {
     dispatch(fetchOperationFilmID(id));
   }, []);
+
   if (loading) {
     return <div className={styles.wrap}></div>;
   }
+
   return (
     <div className={styles.wrap}>
       <Link to={RoutesHome} className={styles.Link}>

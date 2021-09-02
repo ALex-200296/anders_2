@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 
 export interface IValidations {
-  minLength?: number;
-  isEmpty?: boolean;
+  minLength: number;
+  isEmpty: boolean;
 }
 
 const useValidation = (value: any, validations: IValidations) => {

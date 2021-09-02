@@ -10,6 +10,7 @@ const Search: React.FC = () => {
   const { loading } = useSelector(getFilmDataSelector);
   const search = useSearch("", { isEmpty: true, minLength: 3 });
   const { error } = useSelector(getFilmDataSelector);
+
   return (
     <>
       <div className={styles.search}>
