@@ -13,12 +13,15 @@ interface IFilmItemUseParams {
 
 const FilmInfoSection: React.FC = () => {
   const { id } = useParams<IFilmItemUseParams>();
-  const { item } = useSelector(getFilmDataSelector);
+  const { item, loading } = useSelector(getFilmDataSelector);
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchOperationFilmID(id));
   }, []);
   console.log(item);
+  if (loading) {
+    return <div className={styles.wrap}></div>;
+  }
   return (
     <div className={styles.wrap}>
       <Link to={RoutesHome} className={styles.Link}>
