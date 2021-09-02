@@ -1,26 +1,19 @@
-import axios from "axios";
-import React, { useEffect } from "react";
+import React from "react";
+import { useSelector } from "react-redux";
+import { IFilmList } from "../../store/film/interface";
+import { getFilmDataSelector } from "../../store/film/selectors";
 import FilmItem from "./FilmItem/FilmItem";
 import styles from "./filmSection.module.scss";
 
 const FilmSection: React.FC = () => {
-  useEffect(() => {
-    axios
-      .get(" http://www.omdbapi.com/", {
-        params: {
-          s: "sdw",
-          apiKey: "a7b851b4",
-        },
-      })
-      .then(
-        (response) => console.log(response),
-        (rej) => console.log(rej)
-      );
-  });
+  const { data } = useSelector(getFilmDataSelector);
+
   return (
     <div className={styles.film}>
       <ul className={styles.list}>
-        <FilmItem />
+        {data.map((film: IFilmList, idx: number) => (
+          <FilmItem {...film} key={idx} />
+        ))}
       </ul>
     </div>
   );
