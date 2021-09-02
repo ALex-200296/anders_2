@@ -3,7 +3,12 @@ import { Dispatch } from "react";
 import { RouteComponentProps } from "react-router-dom";
 import { RoutesFilm } from "../../pages/Home/routes/homeRoutesConfig";
 import { RoutesHome } from "../../routes/routesConfig";
-import { filmAction, filmActionError, filmActionSuccess } from "./action";
+import {
+  filmAction,
+  filmActionError,
+  filmActionID,
+  filmActionSuccess,
+} from "./action";
 import { FilmAction } from "./interface";
 
 interface IData {
@@ -40,6 +45,26 @@ export const fetchOperationFilms = (
           history?.push(RoutesHome);
         }
       }
+    } catch (e) {
+      console.log(e);
+    }
+  };
+};
+
+export const fetchOperationFilmID = (id: string) => {
+  return async (dispatch: Dispatch<FilmAction>) => {
+    try {
+      dispatch(filmAction());
+      const data = await axios
+        .get(`${REACT_APP_FILMS}`, {
+          params: {
+            apikey: REACT_APP_API_KEY,
+            i: id,
+          },
+        })
+        .then(({ data }) => data);
+
+      dispatch(filmActionID(data));
     } catch (e) {
       console.log(e);
     }

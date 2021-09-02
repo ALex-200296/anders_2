@@ -6,6 +6,7 @@ const initialState: IFilmInitialState = {
   error: "",
   loading: false,
   search: "",
+  item: {},
 };
 
 export const filmReducer = (state = initialState, action: FilmAction) => {
@@ -16,6 +17,8 @@ export const filmReducer = (state = initialState, action: FilmAction) => {
       return { ...state, loading: false, error: action.error };
     case FilmTypes.FETCH_FILMS_SUCCESS:
       return { ...state, loading: false, data: action.data };
+    case FilmTypes.FETCH_FILM_ID:
+      return { ...state, item: action.item, loading: false };
     default:
       return state;
   }

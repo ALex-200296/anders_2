@@ -8,11 +8,31 @@ export interface IFilmList {
   imdbID: string;
 }
 
+export interface IFilmItem {
+  Actors?: string;
+  Awards?: string;
+  BoxOffice?: string;
+  Country?: string;
+  Director?: string;
+  Language?: string;
+  Plot?: string;
+  Poster?: string;
+  Production?: string;
+  Released?: string;
+  Title?: string;
+  Writer?: string;
+  Year?: string;
+  imdbID?: string;
+  imdbRating?: string;
+  imdbVotes?: string;
+}
+
 export interface IFilmInitialState {
   search: string;
   data: IFilmList[];
   error: string;
   loading: boolean;
+  item: IFilmItem;
 }
 
 export interface IFilmAction {
@@ -29,4 +49,13 @@ export interface IFilmActionSuccess {
   data: [];
 }
 
-export type FilmAction = IFilmAction | IFilmActionError | IFilmActionSuccess;
+export interface IFilmActionID {
+  type: FilmTypes.FETCH_FILM_ID;
+  item: {};
+}
+
+export type FilmAction =
+  | IFilmAction
+  | IFilmActionError
+  | IFilmActionSuccess
+  | IFilmActionID;

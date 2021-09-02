@@ -1,4 +1,9 @@
-import { IFilmAction, IFilmActionError, IFilmActionSuccess } from "./interface";
+import {
+  IFilmAction,
+  IFilmActionError,
+  IFilmActionID,
+  IFilmActionSuccess,
+} from "./interface";
 import { FilmTypes } from "./types";
 
 export const filmAction = (): IFilmAction => ({
@@ -13,4 +18,9 @@ export const filmActionError = (error: string): IFilmActionError => ({
 export const filmActionSuccess = (data: []): IFilmActionSuccess => ({
   type: FilmTypes.FETCH_FILMS_SUCCESS,
   data: data,
+});
+
+export const filmActionID = (item: {}): IFilmActionID => ({
+  type: FilmTypes.FETCH_FILM_ID,
+  item: item,
 });
