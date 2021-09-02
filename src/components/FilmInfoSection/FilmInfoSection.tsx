@@ -18,7 +18,6 @@ const FilmInfoSection: React.FC = () => {
   useEffect(() => {
     dispatch(fetchOperationFilmID(id));
   }, []);
-  console.log(item);
   if (loading) {
     return <div className={styles.wrap}></div>;
   }

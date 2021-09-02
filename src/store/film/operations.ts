@@ -36,7 +36,6 @@ export const fetchOperationFilms = (
           })
           .then(({ data }) => data);
         if (data.Response === "True") {
-          console.log(data.Search);
           dispatch(filmActionSuccess(data.Search));
           history?.push(RoutesFilm);
         }
