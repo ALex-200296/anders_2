@@ -1,0 +1,35 @@
+@import "../../App.scss";
+
+.search {
+  margin: 10px 0;
+  width: 100%;
+  padding: 10px 15px;
+
+  border: 1px solid $grayE6;
+  border-radius: 15px;
+}
+
+.form {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.input {
+  padding: 5px;
+
+  border: 1px solid $grayE6;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.btn {
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: $blue;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: $blueDark;
+}

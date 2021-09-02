@@ -10,11 +10,11 @@
   border: none;
   border-radius: 5px;
   color: $white;
-  background-color: $blue;
+  background-color: $gray7D;
   cursor: pointer;
 
   &:hover,
   &:focus {
-    background-color: $blueDark;
+    background-color: $gray66;
   }
 }
