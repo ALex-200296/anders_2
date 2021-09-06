@@ -5,7 +5,12 @@ import notImage from "../../../assets/notimages.png";
 import { Link } from "react-router-dom";
 import { RoutesFilm } from "../../../pages/Home/routes/homeRoutesConfig";
 
-const FilmItem: React.FC<IFilmList> = ({ Poster, Title, Year, imdbID }) => {
+const FilmItem: React.FC<IFilmList> = ({
+  Poster = "N/A",
+  Title = "not found",
+  Year = "not found",
+  imdbID = "/",
+}) => {
   return (
     <li className={styles.item}>
       <h3 className={styles.title}>{Title}</h3>

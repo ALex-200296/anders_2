@@ -1,0 +1,1135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilmItem component should render FilmItem to props 1`] = `
+LoadedCheerio {
+  "0": Node {
+    "attribs": Object {
+      "class": "item",
+    },
+    "children": Array [
+      Node {
+        "attribs": Object {
+          "class": "title",
+        },
+        "children": Array [
+          Node {
+            "data": "Человек паук",
+            "next": null,
+            "parent": [Circular],
+            "prev": null,
+            "type": "text",
+          },
+        ],
+        "name": "h3",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": Node {
+          "attribs": Object {
+            "alt": "this is images",
+            "class": "img",
+            "src": "this is images",
+          },
+          "children": Array [],
+          "name": "img",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": Node {
+            "attribs": Object {
+              "class": "details",
+            },
+            "children": Array [
+              Node {
+                "attribs": Object {
+                  "datetime": "15.06.2016",
+                },
+                "children": Array [
+                  Node {
+                    "data": "Год: 15.06.2016",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "time",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "datetime": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "datetime": undefined,
+                },
+              },
+            ],
+            "name": "div",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Node {
+              "attribs": Object {
+                "class": "link",
+                "href": "/film/12345",
+              },
+              "children": Array [],
+              "name": "a",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "href": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "href": undefined,
+              },
+            },
+            "parent": [Circular],
+            "prev": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+            },
+          },
+          "parent": [Circular],
+          "prev": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "alt": undefined,
+            "class": undefined,
+            "src": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "alt": undefined,
+            "class": undefined,
+            "src": undefined,
+          },
+        },
+        "parent": [Circular],
+        "prev": null,
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "class": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "class": undefined,
+        },
+      },
+      Node {
+        "attribs": Object {
+          "alt": "this is images",
+          "class": "img",
+          "src": "this is images",
+        },
+        "children": Array [],
+        "name": "img",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": Node {
+          "attribs": Object {
+            "class": "details",
+          },
+          "children": Array [
+            Node {
+              "attribs": Object {
+                "datetime": "15.06.2016",
+              },
+              "children": Array [
+                Node {
+                  "data": "Год: 15.06.2016",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "time",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "datetime": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "datetime": undefined,
+              },
+            },
+          ],
+          "name": "div",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": Node {
+            "attribs": Object {
+              "class": "link",
+              "href": "/film/12345",
+            },
+            "children": Array [],
+            "name": "a",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": [Circular],
+            "prev": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+              "href": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+              "href": undefined,
+            },
+          },
+          "parent": [Circular],
+          "prev": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "class": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "class": undefined,
+          },
+        },
+        "parent": [Circular],
+        "prev": Node {
+          "attribs": Object {
+            "class": "title",
+          },
+          "children": Array [
+            Node {
+              "data": "Человек паук",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "text",
+            },
+          ],
+          "name": "h3",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": [Circular],
+          "parent": [Circular],
+          "prev": null,
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "class": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "class": undefined,
+          },
+        },
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "alt": undefined,
+          "class": undefined,
+          "src": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "alt": undefined,
+          "class": undefined,
+          "src": undefined,
+        },
+      },
+      Node {
+        "attribs": Object {
+          "class": "details",
+        },
+        "children": Array [
+          Node {
+            "attribs": Object {
+              "datetime": "15.06.2016",
+            },
+            "children": Array [
+              Node {
+                "data": "Год: 15.06.2016",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "time",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "datetime": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "datetime": undefined,
+            },
+          },
+        ],
+        "name": "div",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": Node {
+          "attribs": Object {
+            "class": "link",
+            "href": "/film/12345",
+          },
+          "children": Array [],
+          "name": "a",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": [Circular],
+          "prev": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "class": undefined,
+            "href": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "class": undefined,
+            "href": undefined,
+          },
+        },
+        "parent": [Circular],
+        "prev": Node {
+          "attribs": Object {
+            "alt": "this is images",
+            "class": "img",
+            "src": "this is images",
+          },
+          "children": Array [],
+          "name": "img",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": [Circular],
+          "parent": [Circular],
+          "prev": Node {
+            "attribs": Object {
+              "class": "title",
+            },
+            "children": Array [
+              Node {
+                "data": "Человек паук",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "h3",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": [Circular],
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+            },
+          },
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "alt": undefined,
+            "class": undefined,
+            "src": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "alt": undefined,
+            "class": undefined,
+            "src": undefined,
+          },
+        },
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "class": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "class": undefined,
+        },
+      },
+      Node {
+        "attribs": Object {
+          "class": "link",
+          "href": "/film/12345",
+        },
+        "children": Array [],
+        "name": "a",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": null,
+        "parent": [Circular],
+        "prev": Node {
+          "attribs": Object {
+            "class": "details",
+          },
+          "children": Array [
+            Node {
+              "attribs": Object {
+                "datetime": "15.06.2016",
+              },
+              "children": Array [
+                Node {
+                  "data": "Год: 15.06.2016",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "time",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "datetime": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "datetime": undefined,
+              },
+            },
+          ],
+          "name": "div",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": [Circular],
+          "parent": [Circular],
+          "prev": Node {
+            "attribs": Object {
+              "alt": "this is images",
+              "class": "img",
+              "src": "this is images",
+            },
+            "children": Array [],
+            "name": "img",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": [Circular],
+            "parent": [Circular],
+            "prev": Node {
+              "attribs": Object {
+                "class": "title",
+              },
+              "children": Array [
+                Node {
+                  "data": "Человек паук",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "h3",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+              },
+            },
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "alt": undefined,
+              "class": undefined,
+              "src": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "alt": undefined,
+              "class": undefined,
+              "src": undefined,
+            },
+          },
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "class": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "class": undefined,
+          },
+        },
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "class": undefined,
+          "href": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "class": undefined,
+          "href": undefined,
+        },
+      },
+    ],
+    "name": "li",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "next": null,
+    "parent": Node {
+      "children": Array [
+        [Circular],
+      ],
+      "name": "root",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+    },
+    "prev": null,
+    "type": "tag",
+    "x-attribsNamespace": Object {
+      "class": undefined,
+    },
+    "x-attribsPrefix": Object {
+      "class": undefined,
+    },
+  },
+  "_root": LoadedCheerio {
+    "0": Node {
+      "children": Array [
+        Node {
+          "attribs": Object {},
+          "children": Array [
+            Node {
+              "attribs": Object {},
+              "children": Array [],
+              "name": "head",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Node {
+                "attribs": Object {},
+                "children": Array [],
+                "name": "body",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {},
+                "x-attribsPrefix": Object {},
+              },
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            Node {
+              "attribs": Object {},
+              "children": Array [],
+              "name": "body",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": Node {
+                "attribs": Object {},
+                "children": Array [],
+                "name": "head",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {},
+                "x-attribsPrefix": Object {},
+              },
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+          ],
+          "name": "html",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": [Circular],
+          "prev": null,
+          "type": "tag",
+          "x-attribsNamespace": Object {},
+          "x-attribsPrefix": Object {},
+        },
+      ],
+      "name": "root",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+      "x-mode": "quirks",
+    },
+    "_root": [Circular],
+    "length": 1,
+    "options": Object {
+      "decodeEntities": true,
+      "xml": false,
+    },
+  },
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "xml": false,
+  },
+}
+`;
+
+exports[`FilmItem component should render FilmItem without props 1`] = `
+LoadedCheerio {
+  "0": Node {
+    "attribs": Object {
+      "class": "item",
+    },
+    "children": Array [
+      Node {
+        "attribs": Object {
+          "class": "title",
+        },
+        "children": Array [
+          Node {
+            "data": "not found",
+            "next": null,
+            "parent": [Circular],
+            "prev": null,
+            "type": "text",
+          },
+        ],
+        "name": "h3",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": Node {
+          "attribs": Object {
+            "alt": "not found",
+            "class": "img",
+            "src": "notimages.png",
+          },
+          "children": Array [],
+          "name": "img",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": Node {
+            "attribs": Object {
+              "class": "details",
+            },
+            "children": Array [
+              Node {
+                "attribs": Object {
+                  "datetime": "not found",
+                },
+                "children": Array [
+                  Node {
+                    "data": "Год: not found",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "time",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "datetime": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "datetime": undefined,
+                },
+              },
+            ],
+            "name": "div",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Node {
+              "attribs": Object {
+                "class": "link",
+                "href": "/film//",
+              },
+              "children": Array [],
+              "name": "a",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "href": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "href": undefined,
+              },
+            },
+            "parent": [Circular],
+            "prev": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+            },
+          },
+          "parent": [Circular],
+          "prev": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "alt": undefined,
+            "class": undefined,
+            "src": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "alt": undefined,
+            "class": undefined,
+            "src": undefined,
+          },
+        },
+        "parent": [Circular],
+        "prev": null,
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "class": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "class": undefined,
+        },
+      },
+      Node {
+        "attribs": Object {
+          "alt": "not found",
+          "class": "img",
+          "src": "notimages.png",
+        },
+        "children": Array [],
+        "name": "img",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": Node {
+          "attribs": Object {
+            "class": "details",
+          },
+          "children": Array [
+            Node {
+              "attribs": Object {
+                "datetime": "not found",
+              },
+              "children": Array [
+                Node {
+                  "data": "Год: not found",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "time",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "datetime": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "datetime": undefined,
+              },
+            },
+          ],
+          "name": "div",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": Node {
+            "attribs": Object {
+              "class": "link",
+              "href": "/film//",
+            },
+            "children": Array [],
+            "name": "a",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": [Circular],
+            "prev": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+              "href": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+              "href": undefined,
+            },
+          },
+          "parent": [Circular],
+          "prev": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "class": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "class": undefined,
+          },
+        },
+        "parent": [Circular],
+        "prev": Node {
+          "attribs": Object {
+            "class": "title",
+          },
+          "children": Array [
+            Node {
+              "data": "not found",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "text",
+            },
+          ],
+          "name": "h3",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": [Circular],
+          "parent": [Circular],
+          "prev": null,
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "class": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "class": undefined,
+          },
+        },
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "alt": undefined,
+          "class": undefined,
+          "src": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "alt": undefined,
+          "class": undefined,
+          "src": undefined,
+        },
+      },
+      Node {
+        "attribs": Object {
+          "class": "details",
+        },
+        "children": Array [
+          Node {
+            "attribs": Object {
+              "datetime": "not found",
+            },
+            "children": Array [
+              Node {
+                "data": "Год: not found",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "time",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "datetime": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "datetime": undefined,
+            },
+          },
+        ],
+        "name": "div",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": Node {
+          "attribs": Object {
+            "class": "link",
+            "href": "/film//",
+          },
+          "children": Array [],
+          "name": "a",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": [Circular],
+          "prev": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "class": undefined,
+            "href": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "class": undefined,
+            "href": undefined,
+          },
+        },
+        "parent": [Circular],
+        "prev": Node {
+          "attribs": Object {
+            "alt": "not found",
+            "class": "img",
+            "src": "notimages.png",
+          },
+          "children": Array [],
+          "name": "img",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": [Circular],
+          "parent": [Circular],
+          "prev": Node {
+            "attribs": Object {
+              "class": "title",
+            },
+            "children": Array [
+              Node {
+                "data": "not found",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "h3",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": [Circular],
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+            },
+          },
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "alt": undefined,
+            "class": undefined,
+            "src": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "alt": undefined,
+            "class": undefined,
+            "src": undefined,
+          },
+        },
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "class": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "class": undefined,
+        },
+      },
+      Node {
+        "attribs": Object {
+          "class": "link",
+          "href": "/film//",
+        },
+        "children": Array [],
+        "name": "a",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": null,
+        "parent": [Circular],
+        "prev": Node {
+          "attribs": Object {
+            "class": "details",
+          },
+          "children": Array [
+            Node {
+              "attribs": Object {
+                "datetime": "not found",
+              },
+              "children": Array [
+                Node {
+                  "data": "Год: not found",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "time",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "datetime": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "datetime": undefined,
+              },
+            },
+          ],
+          "name": "div",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": [Circular],
+          "parent": [Circular],
+          "prev": Node {
+            "attribs": Object {
+              "alt": "not found",
+              "class": "img",
+              "src": "notimages.png",
+            },
+            "children": Array [],
+            "name": "img",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": [Circular],
+            "parent": [Circular],
+            "prev": Node {
+              "attribs": Object {
+                "class": "title",
+              },
+              "children": Array [
+                Node {
+                  "data": "not found",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "h3",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+              },
+            },
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "alt": undefined,
+              "class": undefined,
+              "src": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "alt": undefined,
+              "class": undefined,
+              "src": undefined,
+            },
+          },
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "class": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "class": undefined,
+          },
+        },
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "class": undefined,
+          "href": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "class": undefined,
+          "href": undefined,
+        },
+      },
+    ],
+    "name": "li",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "next": null,
+    "parent": Node {
+      "children": Array [
+        [Circular],
+      ],
+      "name": "root",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+    },
+    "prev": null,
+    "type": "tag",
+    "x-attribsNamespace": Object {
+      "class": undefined,
+    },
+    "x-attribsPrefix": Object {
+      "class": undefined,
+    },
+  },
+  "_root": LoadedCheerio {
+    "0": Node {
+      "children": Array [
+        Node {
+          "attribs": Object {},
+          "children": Array [
+            Node {
+              "attribs": Object {},
+              "children": Array [],
+              "name": "head",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Node {
+                "attribs": Object {},
+                "children": Array [],
+                "name": "body",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {},
+                "x-attribsPrefix": Object {},
+              },
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            Node {
+              "attribs": Object {},
+              "children": Array [],
+              "name": "body",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": Node {
+                "attribs": Object {},
+                "children": Array [],
+                "name": "head",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {},
+                "x-attribsPrefix": Object {},
+              },
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+          ],
+          "name": "html",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": [Circular],
+          "prev": null,
+          "type": "tag",
+          "x-attribsNamespace": Object {},
+          "x-attribsPrefix": Object {},
+        },
+      ],
+      "name": "root",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+      "x-mode": "quirks",
+    },
+    "_root": [Circular],
+    "length": 1,
+    "options": Object {
+      "decodeEntities": true,
+      "xml": false,
+    },
+  },
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "xml": false,
+  },
+}
+`;

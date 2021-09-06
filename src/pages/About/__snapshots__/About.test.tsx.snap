@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ass render 1`] = `
+exports[`render About render About no props 1`] = `
 LoadedCheerio {
   "0": Node {
     "attribs": Object {

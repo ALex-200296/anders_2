@@ -3,7 +3,7 @@ import { FilmTypes } from "./types";
 export interface IFilmList {
   Poster: string;
   Title: string;
-  Type: string;
+  Type?: string;
   Year: string;
   imdbID: string;
 }
@@ -58,4 +58,5 @@ export type FilmAction =
   | IFilmAction
   | IFilmActionError
   | IFilmActionSuccess
-  | IFilmActionID;
+  | IFilmActionID
+  | any;

@@ -15,7 +15,7 @@ export const filmActionError = (error: string): IFilmActionError => ({
   error: error,
 });
 
-export const filmActionSuccess = (data: []): IFilmActionSuccess => ({
+export const filmActionSuccess = (data: any): IFilmActionSuccess => ({
   type: FilmTypes.FETCH_FILMS_SUCCESS,
   data: data,
 });

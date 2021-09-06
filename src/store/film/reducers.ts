@@ -1,7 +1,7 @@
 import { FilmAction, IFilmInitialState } from "./interface";
 import { FilmTypes } from "./types";
 
-const initialState: IFilmInitialState = {
+export const initialState: IFilmInitialState = {
   data: [],
   error: "",
   loading: false,
