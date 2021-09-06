@@ -8,7 +8,7 @@ import { IRoutes } from "./routes/IRoutes";
 import Header from "./components/Header/Header";
 import Container from "./components/Container/Container";
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <Container>
       <Header />
